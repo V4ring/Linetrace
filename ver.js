@@ -5,9 +5,9 @@ tg.expand();
 tg.MainButton.show();
 tg.MainButton.text = "Changed Text";
 tg.MainButton.setText("Changed Texto");
-tg.MainButton.textColor = "White";
-tg.MainButton.color = "Green";
-tg.MainButton.setParams({"color": "Green"});
+tg.MainButton.textColor = "#001100";
+tg.MainButton.color = "#000000";
+tg.MainButton.setParams({"color": "#000000"});
 
 btn.addEventListener('click', function(){
     if (tg.MainButton.isVisible) {
