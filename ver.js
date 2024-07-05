@@ -2,6 +2,7 @@ let tg = window.Telegram.WebApp
 
 tg.expand();
 
+tg.MainButton.show();
 tg.MainButton.text = "Changed Text";
 tg.MainButton.setText("Changed Texto");
 tg.MainButton.textColor = "White";
